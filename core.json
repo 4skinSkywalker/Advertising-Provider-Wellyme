@@ -10,12 +10,12 @@
                 },
                 "card": {
                     "enabled": true,
-                    "imageUrl": "https://4skinSkywalker.github.io/Advertising-Provider-Wellyme/images/campaign_001/home/card-jpg",
+                    "imageUrl": "https://4skinSkywalker.github.io/Advertising-Provider-Wellyme/images/campaign_001/home/card.jpg",
                     "linkUrl": "https://go.rld.app/5q1B"
                 },
                 "overlay": {
                     "enabled": true,
-                    "imageUrl": "https://4skinSkywalker.github.io/Advertising-Provider-Wellyme/images/campaign_001/home/overlay-jpg",
+                    "imageUrl": "https://4skinSkywalker.github.io/Advertising-Provider-Wellyme/images/campaign_001/home/overlay.jpg",
                     "linkUrl": "https://go.rld.app/5q1B"
                 }
             },
@@ -27,7 +27,7 @@
                 },
                 "overlay": {
                     "enabled": true,
-                    "imageUrl": "https://4skinSkywalker.github.io/Advertising-Provider-Wellyme/images/campaign_001/post/overlay-jpg",
+                    "imageUrl": "https://4skinSkywalker.github.io/Advertising-Provider-Wellyme/images/campaign_001/post/overlay.jpg",
                     "linkUrl": "https://go.rld.app/5q1B"
                 }
             }
