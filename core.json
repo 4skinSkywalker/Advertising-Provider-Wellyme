@@ -1,44 +1,41 @@
 {
-    "campaigns": [
-        {
-            "id": "campaign_001",
-            "name": "Redcliffe Campaign",
-            "pages": {
-                "home": {
-                    "banner": {
-                        "enabled": false,
-                        "imageUrl": "https://4skinSkywalker.github.io/Advertising-Provider-Wellyme/images/campaign_001/home/banner.jpg",
-                        "linkUrl": "https://go.rld.app/5q1B"
-                    },
-                    "card": {
-                        "enabled": true,
-                        "imageUrl": "https://4skinSkywalker.github.io/Advertising-Provider-Wellyme/images/campaign_001/home/card-jpg",
-                        "linkUrl": "https://go.rld.app/5q1B"
-                    },
-                    "overlay": {
-                        "enabled": true,
-                        "imageUrl": "https://4skinSkywalker.github.io/Advertising-Provider-Wellyme/images/campaign_001/home/overlay-jpg",
-                        "linkUrl": "https://go.rld.app/5q1B"
-                    }
+    "campaign_001": {
+        "name": "Redcliffe Campaign",
+        "pages": {
+            "home": {
+                "banner": {
+                    "enabled": false,
+                    "imageUrl": "https://4skinSkywalker.github.io/Advertising-Provider-Wellyme/images/campaign_001/home/banner.jpg",
+                    "linkUrl": "https://go.rld.app/5q1B"
                 },
-                "post": {
-                    "banner": {
-                        "enabled": false,
-                        "imageUrl": "https://4skinSkywalker.github.io/Advertising-Provider-Wellyme/images/campaign_001/post/banner.jpg",
-                        "linkUrl": "https://go.rld.app/5q1B"
-                    },
-                    "overlay": {
-                        "enabled": true,
-                        "imageUrl": "https://4skinSkywalker.github.io/Advertising-Provider-Wellyme/images/campaign_001/post/overlay-jpg",
-                        "linkUrl": "https://go.rld.app/5q1B"
-                    }
+                "card": {
+                    "enabled": true,
+                    "imageUrl": "https://4skinSkywalker.github.io/Advertising-Provider-Wellyme/images/campaign_001/home/card-jpg",
+                    "linkUrl": "https://go.rld.app/5q1B"
+                },
+                "overlay": {
+                    "enabled": true,
+                    "imageUrl": "https://4skinSkywalker.github.io/Advertising-Provider-Wellyme/images/campaign_001/home/overlay-jpg",
+                    "linkUrl": "https://go.rld.app/5q1B"
                 }
             },
-            "targetingRules": {
-                "geolocation": ["US", "CA"],
-                "devices": ["desktop", "mobile"],
-                "languages": ["en", "fr"]
+            "post": {
+                "banner": {
+                    "enabled": false,
+                    "imageUrl": "https://4skinSkywalker.github.io/Advertising-Provider-Wellyme/images/campaign_001/post/banner.jpg",
+                    "linkUrl": "https://go.rld.app/5q1B"
+                },
+                "overlay": {
+                    "enabled": true,
+                    "imageUrl": "https://4skinSkywalker.github.io/Advertising-Provider-Wellyme/images/campaign_001/post/overlay-jpg",
+                    "linkUrl": "https://go.rld.app/5q1B"
+                }
             }
+        },
+        "targetingRules": {
+            "geolocation": ["US", "CA"],
+            "devices": ["desktop", "mobile"],
+            "languages": ["en", "fr"]
         }
-    ]
+    }
 }
