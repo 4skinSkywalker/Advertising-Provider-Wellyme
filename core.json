@@ -33,8 +33,7 @@
             }
         },
         "targetingRules": {
-            "geolocation": ["US", "CA"],
-            "devices": ["desktop", "mobile"],
+            "locations": ["IT", "IN"],
             "languages": ["en", "fr"]
         }
     }
