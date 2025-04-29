@@ -32,6 +32,18 @@
     const json = await (await fetch("https://4skinskywalker.github.io/Advertising-Provider-Wellyme/core.json")).json();
     console.debug(json);
 
+    // Get user location
+    let userContinent = "EU";
+    let userCountry;
+    try {
+      const data = await (await fetch('https://ipapi.co/json/')).json();
+      const {continent_code, country} = data;
+      userContinent = continent_code;
+      userCountry = country;
+    } catch(e) {
+      console.error("Could not get user location", e);
+    }
+
     // Initialize advertising structure
     const activeAds = {
       home: {},
@@ -45,6 +57,12 @@
       if (!json[campaign].pages) {
         continue;
       }
+
+      // Filter out foreign campaigns
+      if (userCountry && !json[campaign].targetingRules.locations.includes(userCountry)) {
+        continue;
+      }
+      console.debug("User country", userCountry, "can see campaign", json[campaign].name);
 
       const pages = Object.keys(json[campaign].pages);
       for (const page of pages) {
