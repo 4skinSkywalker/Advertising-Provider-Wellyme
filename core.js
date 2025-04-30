@@ -87,6 +87,7 @@
         console.debug("No localized ads for", format, "and user location", userCountry);
         continue;
       }
+      console.debug({ localizedAds });
 
       // Check the presence of the advertising elements
       const domTarget = document.querySelectorAll(".advertising-" + format);
