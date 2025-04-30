@@ -37,7 +37,7 @@
         }
     },
     "campaign_002": {
-        "name": "Florence Bio Cosmesi",
+        "name": "Florence Bio Cosmesi IT",
         "pages": {
             "home": {
                 "banner": {
@@ -71,6 +71,43 @@
         },
         "targetingRules": {
             "locations": ["IT"]
+        }
+    },
+    "campaign_003": {
+        "name": "Florence Bio Cosmesi GB",
+        "pages": {
+            "home": {
+                "banner": {
+                    "enabled": true,
+                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_003/home/florence-bio-banner-en.jpg",
+                    "linkUrl": "https://amzn.to/4jTg3Mn"
+                },
+                "card": {
+                    "enabled": true,
+                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_003/home/florence-bio-card-en.jpg",
+                    "linkUrl": "https://amzn.to/4jTg3Mn"
+                },
+                "overlay": {
+                    "enabled": true,
+                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_003/home/florence-bio-overlay-en.jpg",
+                    "linkUrl": "https://amzn.to/4jTg3Mn"
+                }
+            },
+            "post": {
+                "banner": {
+                    "enabled": true,
+                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_003/post/florence-bio-banner-en.jpg",
+                    "linkUrl": "https://amzn.to/4jTg3Mn"
+                },
+                "overlay": {
+                    "enabled": true,
+                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_003/post/florence-bio-overlay-en.jpg",
+                    "linkUrl": "https://amzn.to/4jTg3Mn"
+                }
+            }
+        },
+        "targetingRules": {
+            "locations": ["IT", "GB"]
         }
     }
 }
