@@ -7,11 +7,11 @@
                     "enabled": false,
                     "targetingLocation": {
                         "IT": {
-                            "imageUrl": "campaign_001/home/banner.jpg",
+                            "imageUrl": "campaign_001/banner.png",
                             "linkUrl": "https://go.rld.app/5q1B"
                         },
                         "IN": {
-                            "imageUrl": "campaign_001/home/banner.jpg",
+                            "imageUrl": "campaign_001/banner.png",
                             "linkUrl": "https://go.rld.app/5q1B"
                         }
                     }
@@ -20,11 +20,11 @@
                     "enabled": true,
                     "targetingLocation": {
                         "IT": {
-                            "imageUrl": "campaign_001/home/card.jpg",
+                            "imageUrl": "campaign_001/card.png",
                             "linkUrl": "https://go.rld.app/5q1B"
                         },
                         "IN": {
-                            "imageUrl": "campaign_001/home/card.jpg",
+                            "imageUrl": "campaign_001/card.png",
                             "linkUrl": "https://go.rld.app/5q1B"
                         }
                     }
@@ -33,11 +33,11 @@
                     "enabled": true,
                     "targetingLocation": {
                         "IT": {
-                            "imageUrl": "campaign_001/home/banner.jpg",
+                            "imageUrl": "campaign_001/banner.png",
                             "linkUrl": "https://go.rld.app/5q1B"
                         },
                         "IN": {
-                            "imageUrl": "campaign_001/home/banner.jpg",
+                            "imageUrl": "campaign_001/banner.png",
                             "linkUrl": "https://go.rld.app/5q1B"
                         }
                     }
@@ -48,11 +48,11 @@
                     "enabled": false,
                     "targetingLocation": {
                         "IT": {
-                            "imageUrl": "campaign_001/home/banner.jpg",
+                            "imageUrl": "campaign_001/banner.png",
                             "linkUrl": "https://go.rld.app/5q1B"
                         },
                         "IN": {
-                            "imageUrl": "campaign_001/home/banner.jpg",
+                            "imageUrl": "campaign_001/banner.png",
                             "linkUrl": "https://go.rld.app/5q1B"
                         }
                     }
@@ -61,11 +61,11 @@
                     "enabled": true,
                     "targetingLocation": {
                         "IT": {
-                            "imageUrl": "campaign_001/home/banner.jpg",
+                            "imageUrl": "campaign_001/banner.png",
                             "linkUrl": "https://go.rld.app/5q1B"
                         },
                         "IN": {
-                            "imageUrl": "campaign_001/home/banner.jpg",
+                            "imageUrl": "campaign_001/banner.png",
                             "linkUrl": "https://go.rld.app/5q1B"
                         }
                     }
