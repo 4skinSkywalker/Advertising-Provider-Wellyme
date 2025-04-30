@@ -10,7 +10,7 @@
       a.href = linkUrl;
       a.style.position = "absolute";
       a.style.inset = 0;
-      a.style.background = "url(" + imageUrl + ")"
+      a.style.background = "url(https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/" + imageUrl + ")"
       a.style.backgroundSize = "cover";
       a.setAttribute("target", "_blank");
       return a;
@@ -58,12 +58,6 @@
         continue;
       }
 
-      // Filter out foreign campaigns
-      if (userCountry && !json[campaign].targetingRules.locations.includes(userCountry)) {
-        continue;
-      }
-      console.debug("User country", userCountry, "can see campaign", json[campaign].name);
-
       const pages = Object.keys(json[campaign].pages);
       for (const page of pages) {
         const _page = json[campaign].pages[page];
@@ -82,11 +76,19 @@
 
     // Loop over supported formats
     for (const format of ["banner", "card", "overlay"]) {
-      if (!currentPageAds[format]) {
+      if (!currentPageAds[format] || !currentPageAds[format].length) {
         console.debug(format, "not present in current page advertising configuration");
         continue;
       }
 
+      // Filter out foreign campaigns
+      const localizedAds = currentPageAds[format].filter(ads => ads.targetingLocation && ads.targetingLocation[userCountry]);
+      if (!localizedAds.length) {
+        console.debug("No localized ads for", format, "and user location", userCountry);
+        continue;
+      }
+
+      // Check the presence of the advertising elements
       const domTarget = document.querySelectorAll(".advertising-" + format);
       if (!domTarget || !domTarget.length) {
         console.debug("Element not found for", format);
@@ -94,8 +96,8 @@
       }
 
       for (const el of domTarget) {
-        const adv = getRandom(currentPageAds[format] || []);
-        if (!adv) {
+        const adv = getRandom(localizedAds).targetingLocation[userCountry];
+        if (!adv || !adv.imageUrl || !adv.linkUrl) {
           console.debug("No advertising for", format);
           continue;
         }

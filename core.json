@@ -5,109 +5,187 @@
             "home": {
                 "banner": {
                     "enabled": false,
-                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_001/home/banner.jpg",
-                    "linkUrl": "https://go.rld.app/5q1B"
+                    "targetingLocation": {
+                        "IT": {
+                            "imageUrl": "campaign_001/home/banner.jpg",
+                            "linkUrl": "https://go.rld.app/5q1B"
+                        },
+                        "IN": {
+                            "imageUrl": "campaign_001/home/banner.jpg",
+                            "linkUrl": "https://go.rld.app/5q1B"
+                        }
+                    }
                 },
                 "card": {
                     "enabled": true,
-                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_001/home/card.jpg",
-                    "linkUrl": "https://go.rld.app/5q1B"
+                    "targetingLocation": {
+                        "IT": {
+                            "imageUrl": "campaign_001/home/card.jpg",
+                            "linkUrl": "https://go.rld.app/5q1B"
+                        },
+                        "IN": {
+                            "imageUrl": "campaign_001/home/card.jpg",
+                            "linkUrl": "https://go.rld.app/5q1B"
+                        }
+                    }
                 },
                 "overlay": {
                     "enabled": true,
-                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_001/home/overlay.jpg",
-                    "linkUrl": "https://go.rld.app/5q1B"
+                    "targetingLocation": {
+                        "IT": {
+                            "imageUrl": "campaign_001/home/banner.jpg",
+                            "linkUrl": "https://go.rld.app/5q1B"
+                        },
+                        "IN": {
+                            "imageUrl": "campaign_001/home/banner.jpg",
+                            "linkUrl": "https://go.rld.app/5q1B"
+                        }
+                    }
                 }
             },
             "post": {
                 "banner": {
                     "enabled": false,
-                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_001/post/banner.jpg",
-                    "linkUrl": "https://go.rld.app/5q1B"
+                    "targetingLocation": {
+                        "IT": {
+                            "imageUrl": "campaign_001/home/banner.jpg",
+                            "linkUrl": "https://go.rld.app/5q1B"
+                        },
+                        "IN": {
+                            "imageUrl": "campaign_001/home/banner.jpg",
+                            "linkUrl": "https://go.rld.app/5q1B"
+                        }
+                    }
                 },
                 "overlay": {
                     "enabled": true,
-                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_001/post/overlay.jpg",
-                    "linkUrl": "https://go.rld.app/5q1B"
+                    "targetingLocation": {
+                        "IT": {
+                            "imageUrl": "campaign_001/home/banner.jpg",
+                            "linkUrl": "https://go.rld.app/5q1B"
+                        },
+                        "IN": {
+                            "imageUrl": "campaign_001/home/banner.jpg",
+                            "linkUrl": "https://go.rld.app/5q1B"
+                        }
+                    }
                 }
             }
         },
-        "targetingRules": {
-            "locations": ["IT", "IN"]
-        }
+        "targetingLocations": ["IT", "IN"]
     },
     "campaign_002": {
-        "name": "Florence Bio Cosmesi IT",
+        "name": "Florence Bio Cosmesi",
         "pages": {
             "home": {
                 "banner": {
                     "enabled": true,
-                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_002/home/florence-bio-banner.jpg",
-                    "linkUrl": "https://amzn.to/3Gs9t0T"
+                    "targetingLocation": {
+                        "IT": {
+                            "imageUrl": "campaign_002/home/florence-bio-banner.jpg",
+                            "linkUrl": "https://amzn.to/3Gs9t0T"
+                        },
+                        "GB": {
+                            "imageUrl": "campaign_003/home/florence-bio-banner-en.png",
+                            "linkUrl": "https://amzn.to/4jTg3Mn"
+                        },
+                        "FR": {
+                            "imageUrl": "campaign_003/home/florence-bio-banner-en.png",
+                            "linkUrl": "https://amzn.to/4jUsCaj"
+                        },
+                        "ES": {
+                            "imageUrl": "campaign_003/home/florence-bio-banner-en.png",
+                            "linkUrl": "https://amzn.to/3YpQ9Yl"
+                        }
+                    }
                 },
                 "card": {
                     "enabled": true,
-                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_002/home/florence-bio-card.jpg",
-                    "linkUrl": "https://amzn.to/3Gs9t0T"
+                    "targetingLocation": {
+                        "IT": {
+                            "imageUrl": "campaign_002/home/florence-bio-card.jpg",
+                            "linkUrl": "https://amzn.to/3Gs9t0T"
+                        },
+                        "GB": {
+                            "imageUrl": "campaign_003/home/florence-bio-card-en.png",
+                            "linkUrl": "https://amzn.to/4jTg3Mn"
+                        },
+                        "FR": {
+                            "imageUrl": "campaign_003/home/florence-bio-card-en.png",
+                            "linkUrl": "https://amzn.to/4jUsCaj"
+                        },
+                        "ES": {
+                            "imageUrl": "campaign_003/home/florence-bio-card-en.png",
+                            "linkUrl": "https://amzn.to/3YpQ9Yl"
+                        }
+                    }
                 },
                 "overlay": {
                     "enabled": true,
-                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_002/home/florence-bio-overlay.jpg",
-                    "linkUrl": "https://amzn.to/3Gs9t0T"
+                    "targetingLocation": {
+                        "IT": {
+                            "imageUrl": "campaign_002/home/florence-bio-banner.jpg",
+                            "linkUrl": "https://amzn.to/3Gs9t0T"
+                        },
+                        "GB": {
+                            "imageUrl": "campaign_003/home/florence-bio-banner-en.png",
+                            "linkUrl": "https://amzn.to/4jTg3Mn"
+                        },
+                        "FR": {
+                            "imageUrl": "campaign_003/home/florence-bio-banner-en.png",
+                            "linkUrl": "https://amzn.to/4jUsCaj"
+                        },
+                        "ES": {
+                            "imageUrl": "campaign_003/home/florence-bio-banner-en.png",
+                            "linkUrl": "https://amzn.to/3YpQ9Yl"
+                        }
+                    }
                 }
             },
             "post": {
                 "banner": {
                     "enabled": true,
-                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_002/post/florence-bio-banner.jpg",
-                    "linkUrl": "https://amzn.to/3Gs9t0T"
+                    "targetingLocation": {
+                        "IT": {
+                            "imageUrl": "campaign_002/home/florence-bio-banner.jpg",
+                            "linkUrl": "https://amzn.to/3Gs9t0T"
+                        },
+                        "GB": {
+                            "imageUrl": "campaign_003/home/florence-bio-banner-en.png",
+                            "linkUrl": "https://amzn.to/4jTg3Mn"
+                        },
+                        "FR": {
+                            "imageUrl": "campaign_003/home/florence-bio-banner-en.png",
+                            "linkUrl": "https://amzn.to/4jUsCaj"
+                        },
+                        "ES": {
+                            "imageUrl": "campaign_003/home/florence-bio-banner-en.png",
+                            "linkUrl": "https://amzn.to/3YpQ9Yl"
+                        }
+                    }
                 },
                 "overlay": {
                     "enabled": true,
-                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_002/post/florence-bio-overlay.jpg",
-                    "linkUrl": "https://amzn.to/3Gs9t0T"
+                    "targetingLocation": {
+                        "IT": {
+                            "imageUrl": "campaign_002/home/florence-bio-banner.jpg",
+                            "linkUrl": "https://amzn.to/3Gs9t0T"
+                        },
+                        "GB": {
+                            "imageUrl": "campaign_003/home/florence-bio-banner-en.png",
+                            "linkUrl": "https://amzn.to/4jTg3Mn"
+                        },
+                        "FR": {
+                            "imageUrl": "campaign_003/home/florence-bio-banner-en.png",
+                            "linkUrl": "https://amzn.to/4jUsCaj"
+                        },
+                        "ES": {
+                            "imageUrl": "campaign_003/home/florence-bio-banner-en.png",
+                            "linkUrl": "https://amzn.to/3YpQ9Yl"
+                        }
+                    }
                 }
             }
-        },
-        "targetingRules": {
-            "locations": ["IT"]
-        }
-    },
-    "campaign_003": {
-        "name": "Florence Bio Cosmesi GB",
-        "pages": {
-            "home": {
-                "banner": {
-                    "enabled": true,
-                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_003/home/florence-bio-banner-en.png",
-                    "linkUrl": "https://amzn.to/4jTg3Mn"
-                },
-                "card": {
-                    "enabled": true,
-                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_003/home/florence-bio-card-en.png",
-                    "linkUrl": "https://amzn.to/4jTg3Mn"
-                },
-                "overlay": {
-                    "enabled": true,
-                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_003/home/florence-bio-overlay-en.png",
-                    "linkUrl": "https://amzn.to/4jTg3Mn"
-                }
-            },
-            "post": {
-                "banner": {
-                    "enabled": true,
-                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_003/post/florence-bio-banner-en.png",
-                    "linkUrl": "https://amzn.to/4jTg3Mn"
-                },
-                "overlay": {
-                    "enabled": true,
-                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_003/post/florence-bio-overlay-en.png",
-                    "linkUrl": "https://amzn.to/4jTg3Mn"
-                }
-            }
-        },
-        "targetingRules": {
-            "locations": ["IT", "GB"]
         }
     }
 }
