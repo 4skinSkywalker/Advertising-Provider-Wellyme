@@ -79,29 +79,29 @@
             "home": {
                 "banner": {
                     "enabled": true,
-                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_003/home/florence-bio-banner-en.jpg",
+                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_003/home/florence-bio-banner-en.png",
                     "linkUrl": "https://amzn.to/4jTg3Mn"
                 },
                 "card": {
                     "enabled": true,
-                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_003/home/florence-bio-card-en.jpg",
+                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_003/home/florence-bio-card-en.png",
                     "linkUrl": "https://amzn.to/4jTg3Mn"
                 },
                 "overlay": {
                     "enabled": true,
-                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_003/home/florence-bio-overlay-en.jpg",
+                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_003/home/florence-bio-overlay-en.png",
                     "linkUrl": "https://amzn.to/4jTg3Mn"
                 }
             },
             "post": {
                 "banner": {
                     "enabled": true,
-                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_003/post/florence-bio-banner-en.jpg",
+                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_003/post/florence-bio-banner-en.png",
                     "linkUrl": "https://amzn.to/4jTg3Mn"
                 },
                 "overlay": {
                     "enabled": true,
-                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_003/post/florence-bio-overlay-en.jpg",
+                    "imageUrl": "https://4skinskywalker.github.io/Advertising-Provider-Wellyme/images/campaign_003/post/florence-bio-overlay-en.png",
                     "linkUrl": "https://amzn.to/4jTg3Mn"
                 }
             }
