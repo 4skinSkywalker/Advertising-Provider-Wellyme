@@ -34,14 +34,16 @@
 
     // Get user location
     let userContinent = "EU";
-    let userCountry;
-    try {
-      const data = await (await fetch('https://ipapi.co/json/')).json();
-      const {continent_code, country} = data;
-      userContinent = continent_code;
-      userCountry = country;
-    } catch(e) {
-      console.error("Could not get user location", e);
+    let userCountry = localStorage.getItem("mocked-user-country");
+    if (!userCountry) {
+      try {
+        const data = await (await fetch('https://ipapi.co/json/')).json();
+        const {continent_code, country} = data;
+        userContinent = continent_code;
+        userCountry = country;
+      } catch(e) {
+        console.error("Could not get user location", e);
+      }
     }
 
     // Initialize advertising structure
