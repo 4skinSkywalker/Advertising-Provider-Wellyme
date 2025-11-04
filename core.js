@@ -1,4 +1,7 @@
 (async function () {
+  // Temporary disable ads
+  return document.querySelectorAll('[class^="advertising-"]').forEach(el => el.remove());
+
   // Advertising module
   try {
     function getRandom(arr) {
