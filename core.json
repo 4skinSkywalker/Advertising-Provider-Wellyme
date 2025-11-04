@@ -4,7 +4,7 @@
         "pages": {
             "home": {
                 "banner": {
-                    "enabled": false,
+                    "enabled": true,
                     "targetingLocation": {
                         "IT": {
                             "imageUrl": "campaign_001/banner.png",
@@ -45,7 +45,7 @@
             },
             "post": {
                 "banner": {
-                    "enabled": false,
+                    "enabled": true,
                     "targetingLocation": {
                         "IT": {
                             "imageUrl": "campaign_001/banner.png",
