@@ -1,6 +1,7 @@
 (async function () {
-  // Temporary disable ads
-  // return document.querySelectorAll('[class^="advertising-"]').forEach(el => el.remove());
+  function removeAds() {
+    return document.querySelectorAll('[class^="advertising-"]').forEach(el => el.remove());
+  }
 
   // Advertising module
   try {
@@ -27,7 +28,7 @@
       currentPage = "home";
     } else {
       console.log(window.location.href, "is not an adv target page.");
-      return;
+      return removeAds();
     }
     console.debug({ currentPage });
 
