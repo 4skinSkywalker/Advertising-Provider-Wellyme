@@ -1,10 +1,12 @@
 (async function () {
-  function removeAds() {
-    return document.querySelectorAll('[class^="advertising-"]').forEach(el => el.remove());
-  }
-
   // Advertising module
   try {
+    function removeAds() {
+      return document.querySelectorAll('[class^="advertising-"]').forEach(el => el.remove());
+    }
+
+    return removeAds(); // Comment this to turn on advertising
+
     function getRandom(arr) {
       return arr[Math.floor(Math.random() * arr.length)];
     }
